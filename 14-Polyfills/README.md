@@ -2,12 +2,13 @@ JavaScript Polyfills
 Polyfills are custom implementations of JavaScript features that replicate the behavior of built-in methods. They are commonly used to provide support for features that may not be available in older JavaScript environments or browsers.
 Implementing polyfills helps developers understand how core JavaScript methods work internally and how language features can be recreated using fundamental JavaScript concepts.
 This section includes polyfills for:
-Function methods (call, apply, bind)
-Array methods (map, filter, reduce, forEach, find)
-Promise utilities
-Event Emitter pattern
-Retry mechanism
-Custom setInterval implementation
+    Function methods (call, apply, bind)
+    Array methods (map, filter, reduce, forEach, find)
+    Promise utilities
+    Event Emitter pattern
+    Retry mechanism
+    Custom setInterval implementation
+
 Function Method Polyfills
 JavaScript provides built-in methods that allow functions to control their execution context.
 
